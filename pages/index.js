@@ -25,7 +25,7 @@ export default function Home() {
           onClick={() => {
             btn();
           }}
-          style={{ marginTop: "150px" }}
+          style={{ marginTop: "50px" }}
         >
           click
         </button>
