@@ -20,19 +20,19 @@ export default function Home() {
         <title>Welcome, Kaisei!</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      <button
-        onClick={() => {
-          btn();
-        }}
-        className="description"
-      >
-        click
-      </button>
       <main>
+        <button
+          onClick={() => {
+            btn();
+          }}
+          style={{ marginTop: "150px" }}
+        >
+          click
+        </button>
+
         {button == true && (
           <>
-            <Header title="Welcome Kaisei" />
+            <Header title="Welcome Kaisei!" />
             <p className="description">Let's get started!</p>
           </>
         )}
