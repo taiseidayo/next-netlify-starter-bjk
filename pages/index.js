@@ -5,7 +5,6 @@ import { useState } from "react";
 
 export default function Home() {
   const [button, setButton] = useState(false);
-  const [text, setText] = useState("");
 
   const btn = () => {
     if (button == true) {
@@ -17,7 +16,7 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Welcome, Kaisei!</title>
+        <title>this is netlify test.</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
