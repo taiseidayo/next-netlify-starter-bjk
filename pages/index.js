@@ -25,13 +25,14 @@ export default function Home() {
         onClick={() => {
           btn();
         }}
+        className="description"
       >
         click
       </button>
       <main>
         {button == true && (
           <>
-            <Header title="Welcome to my app!" />
+            <Header title="Welcome Kaisei" />
             <p className="description">Let's get started!</p>
           </>
         )}
